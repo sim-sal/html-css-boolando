@@ -44,10 +44,12 @@ header{
 .row{
     display: flex;
     gap: 15px;
+    margin-top: 10%;
 }
 
 .product-col{
     position: relative;
+    margin-top: ;
 }
 
 article img{
