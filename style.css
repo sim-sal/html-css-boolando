@@ -12,8 +12,10 @@ body{
 .container{
     width: 70%;
     margin: auto;
+    margin-top: 7%;
 }
 
+/* regole header */
 header{
     background-color: rgb(255,105,0);
     position: fixed;
@@ -38,6 +40,67 @@ header{
     height: 30px;
 }
 
+/* regole contenuto principale */
+.row{
+    display: flex;
+    gap: 15px;
+}
+
+.product-col{
+    position: relative;
+}
+
+article img{
+    max-width: 100%;
+}
+
+.heart{
+    height: 40px;
+    font-size: 30px;
+    line-height: 50%;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.label{
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    background-color: orangered;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sostenibile{
+    position: absolute;
+    left: 45px;
+    bottom: 35px;
+    background-color: orangered;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.info-product{
+    position: absolute;
+    font-size: 12px;
+}
+
+.new-price{
+    color: red;
+    font-weight: bolder;
+}
+
+.old-price{
+    text-decoration: line-through;
+    margin-left: 4px;
+}
 
 
 
