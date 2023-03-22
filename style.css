@@ -41,6 +41,10 @@ header{
 }
 
 /* regole contenuto principale */
+main{
+    margin-bottom: 10%;
+}
+
 .row{
     display: flex;
     gap: 15px;
@@ -49,7 +53,6 @@ header{
 
 .product-col{
     position: relative;
-    margin-top: ;
 }
 
 article img{
@@ -102,6 +105,22 @@ article img{
 .old-price{
     text-decoration: line-through;
     margin-left: 4px;
+}
+
+
+/* regole footer */
+footer{
+    background-color: rgb(26,26,26);
+    width: 100%;
+    color: white;
+}
+
+.collegamenti{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
 }
 
 
