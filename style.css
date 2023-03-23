@@ -70,6 +70,11 @@ article img{
     right: 0;
 }
 
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .label{
     position: absolute;
     left: 0;
@@ -90,6 +95,10 @@ article img{
     font-size: 10px;
     font-weight: bold;
     padding: 5px;
+}
+
+.due{
+    left: 0;
 }
 
 .info-product{
