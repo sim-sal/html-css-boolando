@@ -23,6 +23,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 900;
+    font-size: 12px;
 }
 
 .barra-navigazione{
@@ -37,7 +38,7 @@ header{
 
 
 .logo{
-    height: 30px;
+    height: 25px;
 }
 
 /* regole contenuto principale */
@@ -99,6 +100,11 @@ article img{
 
 .due{
     left: 0;
+}
+
+.img-1b:hover{
+    background: url("img/1b.webp");
+    display: inline-block;
 }
 
 .info-product{
